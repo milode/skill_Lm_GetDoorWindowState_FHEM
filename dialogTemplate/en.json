@@ -1,0 +1,7 @@
+{
+    "skill": "Lm_GetDoorWindowState_FHEM",
+    "icon": "time",
+    "description": "Liefert den t\u00fcr und fenster status von fhem",
+    "slotTypes": [],
+    "intents": []
+}

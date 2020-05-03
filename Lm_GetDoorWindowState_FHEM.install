@@ -1,0 +1,23 @@
+{
+    "name": "Lm_GetDoorWindowState_FHEM",
+    "version": "0.0.1",
+    "icon": "fab fa-battle-net",
+    "category": "undefined",
+    "author": "milode",
+    "maintainers": [],
+    "desc": "Liefert den t\u00fcr und fenster status von fhem",
+    "aliceMinVersion": "1.0.0-b1",
+    "systemRequirements": [
+        ""
+    ],
+    "pipRequirements": [
+        ""
+    ],
+    "conditions": {
+        "lang": [
+            "en",
+            "de"
+        ],
+        "asrArbitraryCapture": true
+    }
+}
