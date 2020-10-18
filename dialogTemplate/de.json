@@ -1,7 +1,39 @@
 {
     "skill": "Lm_GetDoorWindowState_FHEM",
     "icon": "time",
-    "description": "Liefert den t\u00fcr und fenster status von fhem",
+    "description": "Liefert den Tuer und Fenster Status ueber FHEM",
     "slotTypes": [],
-    "intents": []
+    "intents": [
+        {
+			"name": "GetDoorWindowState",
+			"description": "Liefert den Tuer und Fenster Status von FHEM",
+			"enabledByDefault": true,
+			"utterances": [
+				"Wie der Tür Status",
+				"Wie ist der Fenster Status",
+				"Wie der Türstatus",
+				"Wie ist der Fensterstatus",
+				"Sind noch Fenster offen",
+				"Sind alle Fenster zu",
+				"Sind alle Fenster geschlossen",
+				"Sind noch Türen offen",
+				"Sind alle Türen zu",
+				"Sag mir den Tür Status",
+				"Sag mir ob alle Türen zu sind",
+				"Sag mir ob alle Türen geschlossen sind",
+				"Sag mir den Fenster Status",
+				"Sag mir ob alle Fenster zu sind",
+				"Sag mir ob alle Fenster geschlossen sind",
+				"Bitte berichte den Zustand der Türen",
+				"Bitte berichte den Zustand der Fenster",
+				"Kannst Du mir bitte die momentanen Fensterstatus sagen",
+				"Kannst Du mir bitte die momentanen Türstatus sagen",
+				"Erzähl mir, welche Fenster offen sind",
+				"Erzähl mir, welche Türen offen sind",
+				"Ich frage mich, ob noch ein Fenster offen ist",
+				"Ich frage mich, ob noch eine Türe offen ist"
+			],
+			"slots": []
+		}
+    ]
 }

@@ -9,6 +9,6 @@ class Lm_GetDoorWindowState_FHEM(AliceSkill):
 	Description: Liefert den tür und fenster status von fhem
 	"""
 
-	@IntentHandler('MyIntentName')
-	def dummyIntent(self, session: DialogSession, **_kwargs):
+	@IntentHandler('GetDoorWindowState')
+	def dummyIntent1(self, session: DialogSession, **_kwargs):
 		pass
